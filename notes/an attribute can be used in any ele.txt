@@ -1,0 +1,12 @@
+an attribute can be used in any element in HTML
+a hyperlink is used to navigate from page to page
+the text is the part that the reader will see by clicking on this text the reader will be directed it the specified URL address
+<tr> table rows
+<td> data cells
+<th> table header row
+ordered list - in number order <ol>
+unordered list - bullet point <ul>
+lists - <li>
+definition lists - used to give definition in the lists <dl>
+
+

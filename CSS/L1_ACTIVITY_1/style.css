@@ -1,0 +1,8 @@
+* {
+    font-size: 30px;
+}
+h3{color:blue;}
+h4{color: red;}
+.myclass{color:chocolate;}
+#myid{color:green;}
+h5,p{color:orange;}
