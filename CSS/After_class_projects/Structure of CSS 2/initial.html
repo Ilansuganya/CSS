@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> registration form </title>
+</head>
+    <body>
+    <h1>Registration Form</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label>Name</label>
+        <input type="text" id="name" ><br><br>
+        <label>Email</label>
+        <input type="text" id="email" ><br><br>
+        <label>Contact  Number (This will be hidden)</label>
+        <input type="text" id="contact" ><br><br>
+        <label>Gender</label>
+        <input type="radio" id="female" name="gender" value="Female">Female<br>
+        <input type="radio" id="male" name="gender" value="Male">Male<br>
+        <label>Favourite city</label>
+        <input type="checkbox" id="city1" name="city" value="Delhi">Delhi<br>
+        <input type="checkbox" id="city2" name="city" value="Mumbai">Mumbai<br><br>
+        <input type="submit">
+    </fieldset>
+    <fieldset>
+        <legend>Educational Information</legend>
+        <form action="/action_page.php">
+            oninput = 'x.value =
+            (parseInt(a.value) + parseInt(b.value) + parseInt(c.value)+parsentInt(d.value)+parseInt(e.value))/5'>
+            <label>Enter marks</label>
+             <select name="subject" id="subject">
+                <option value="math">Math</option>
+                <option value="science">Science</option>
+                <option value="english">English</option>
+                <option value="social">Social</option>
+                <option value="hindi">Hindi</option>
+            </select>
+            <input type="number" id="a" name="a"><br><br>
+            <select name="Subject2" id="subject2">
+                <option value="math">Math</option>
+                <option value="science">Science</option>
+                <option value="english">English</option>
+                <option value="social">Social</option>
+                <option value="hindi">Hindi</option>
+            </select>
+            <input type="number" id="b" name="b"><br><br>
+            <select name="Subject3" id="subject3">
+                <option value="math">Math</option>
+                <option value="science">Science</option>
+                <option value="english">English</option>
+                <option value="social">Social</option>
+                <option value="hindi">Hindi</option>
+            </select>
+            <input type="number" id="c" name="c"><br><br>
+            <select name="Subject4" id="subject4">
+                <option value="math">Math</option>
+                <option value="science">Science</option>
+                <option value="english">English</option>
+                <option value="social">Social</option>
+                <option value="hindi">Hindi</option>
+            </select>
+            <input type="number" id="d" name="d"><br><br>
+            <select name="Subject5" id="subject5">
+                <option value="math">Math</option>
+                <option value="science">Science</option>
+                <option value="english">English</option>
+                <option value="social">Social</option>
+                <option value="hindi">Hindi</option>
+            </select>
+            <input type="number" id="e" name="e"><br><br>
+             <input type="submit"> 
+        </form>
+    </fieldset>
+    </body>
+</html>
