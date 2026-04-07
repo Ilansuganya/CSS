@@ -13,10 +13,10 @@ a {
 a:hover{
     color : rgb(0, 0, 0);
 }
- ul > li {
+ ul < li {
     font-weight : bold;
  }
-h1 + p {
+p + h1 {
     background-color: rgb(173, 173, 173);
     padding : 20px;
     border-radius: 10px;
@@ -37,6 +37,7 @@ ul li:hover {
         content : "\1F30C"
     }
     p::first-letter {
+        font-family: cursive;
         font-size: 400%;
         color : rgb(255, 255, 255);
     }
