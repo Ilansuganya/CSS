@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(201, 200, 200);
+    color: rgba(253, 253, 253, 0.356);
+}
+h1 {
+    color : rgb(0, 0, 0);
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    color : rgb(0, 0, 0);
+}
+ ul > li {
+    font-weight : bold;
+ }
+h1 + p {
+    background-color: rgb(173, 173, 173);
+    padding : 20px;
+    border-radius: 10px;
+}
+ul li:hover {
+    color : rgb(0, 0, 0);
+}
+    ul li:nth-child(3) {
+        background-color: rgb(255, 255, 255)
+    }
+    p:not(:first-of-type) {
+        text-decoration: overline; 
+    }
+    ul li:before {
+        content : "\1F680"
+    }
+    a ::after {
+        content : "\1F30C"
+    }
+    p::first-letter {
+        font-size: 400%;
+        color : rgb(255, 255, 255);
+    }
