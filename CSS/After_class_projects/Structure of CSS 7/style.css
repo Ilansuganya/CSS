@@ -1,0 +1,100 @@
+*
+body {
+    font-family: monospace;
+    background-color: rgb(91, 99, 91);
+    color: rgb(212, 212, 212);
+    background-image: url("Example_photo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+h1 {
+    color: rgb(255, 253, 253);
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+h2 {
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+h3 {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+h4 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline overline;
+    text-transform: none;
+}
+h5, p {
+    color: rgb(0, 0, 0);
+}
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+ul > li {
+    font-weight: italic;
+}
+ul li:hover {
+    color: rgb(0, 0, 0);
+}
+ul li:nth-child(2) {
+    background-color: rgb(255, 255, 255);
+}
+ul li::before {
+    content: "\2654";
+}
+#text { text-shadow: 2px 2px 1px rgb(0, 0, 0); }
+#box { box-shadow: 9px 9px 5px rgb(255, 255, 255); }
+#indent { text-indent: 50%; }
+img#imageRight { float: right; }
+img#imageLeft { float: left; }
+.rectangle1 {
+    width: 220px;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+}
+hr {
+    background-color: rgb(255, 255, 255);
+.absolute {
+    position: absolute;
+    left: 50px;
+    border: 3px solid rgb(0, 0, 0);
+}
+.relative {
+    position: relative;
+    left: 100px;
+    border: 3px solid rgb(255, 255, 255);
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    right: 20px;
+    border: 3px solid rgb(0, 0, 0);
+}
+.sticky {
+    position: sticky;
+    top: 1px;
+    left: 20px;
+    width: 100px;
+    border: 3px solid rgb(255, 255, 255);
+}
+}
+.text1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.p1 {
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 20px;
+}
+* {
+    text-align: left;
+    font-family: monospace;
+}
